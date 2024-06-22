@@ -1,0 +1,1 @@
+docker buildx build -f Dockerfile --platform linux/amd64 -t renedyhr/ollama-serverless:latest -t renedyhr/ollama-serverless:$1 . --push
